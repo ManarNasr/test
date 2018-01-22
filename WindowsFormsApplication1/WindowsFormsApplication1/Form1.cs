@@ -20,16 +20,12 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Test");
-
-
-
-
-            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("bjdvjdbfvbjfdjvbdfjv'zfvbjd/vbjbjljbsdvbj");
+            new_form n = new new_form();
+            n.ShowDialog();
         }
     }
 }
